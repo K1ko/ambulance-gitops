@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: kcervenka-ambulance-ufe-content
+spec:
+  microFrontend: kcervenka-ambulance-ufe
+  element: kcervenka-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?kcervenka-ambulance-wl(/.*)?$"

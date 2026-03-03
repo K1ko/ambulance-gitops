@@ -9,3 +9,5 @@ labels:
 
 resources:
 - ../../../apps/kcervenka-ambulance-ufe
+components:
+- ../../../components/version-developers

@@ -4,7 +4,10 @@ metadata:
   name: kcervenka-ambulance-ufe-content
 spec:
   microFrontend: kcervenka-ambulance-ufe
-  element: kcervenka-ambulance-wl-list
+  element: kcervenka-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /kcervenka-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content

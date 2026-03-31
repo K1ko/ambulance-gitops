@@ -9,5 +9,10 @@ labels:
 
 resources:
 - ../../../apps/kcervenka-ambulance-ufe
+- ../../../apps/kcervenka-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 components:
 - ../../../components/version-developers
+- https://github.com/K1ko/ambulance-webapi//deployments/kustomize/components/mongodb

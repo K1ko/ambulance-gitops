@@ -4,3 +4,6 @@ images:
 - name: xcervenkak/ambulance-ufe
   newName: xcervenkak/ambulance-ufe
   newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: xcervenkak/ambulance-wl-webapi
+  newName: xcervenkak/ambulance-wl-webapi
+  newTag: 1.1.0

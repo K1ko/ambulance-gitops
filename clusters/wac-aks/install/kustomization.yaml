@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/kcervenka-ambulance-ufe
+- ../../../apps/kcervenka-ambulance-webapi
 
 
 components:

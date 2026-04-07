@@ -9,4 +9,4 @@ labels:
 
 resources:
   - gitops
-  - ../../../infrastructure/envoy-gateway
+  - ../../infrastructure/envoy-gateway

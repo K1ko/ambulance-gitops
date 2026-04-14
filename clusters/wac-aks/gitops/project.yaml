@@ -6,7 +6,7 @@ spec:
   title: Zoznam čakajúcich kcervenka # napr. "Zoznam čakajúcich <pfx>"
   description: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
   authors: "Kristián Červenka" # Zadajte mená autorov
-  azureLink: "kcervenka-ambulance.azurewebsites.net"
+  azureLink: "https://kcervenka-ambulance.azurewebsites.net"
   frontendRepoUrl: "https://github.com/K1ko/ambulance-ufe"
   backendRepoUrl: "https://github.com/K1ko/ambulance-webapi"
   gitopsRepoUrl: "https://github.com/K1ko/ambulance-gitops"
